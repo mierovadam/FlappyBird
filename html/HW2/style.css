@@ -1,0 +1,58 @@
+#canvas {
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    background-color: #8da940;
+    display: inline-block;
+    border: 0.16em solid #DAD998;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    height: 180px;
+    width: 280px;
+    border: 0.16em solid black;
+    background-color: #DAD998;
+}
+
+.ss {
+    height: 150px;
+    width: 250px;
+    background: blanchedalmond;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-top: 25px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 0.16em solid black;
+    font-size: 25px;
+}
+
+.ss h2 {
+    margin-top: 1px;
+    margin-left: 25px;
+    font-family: monospace;
+}
+
+.hide {
+    display: none;
+}
